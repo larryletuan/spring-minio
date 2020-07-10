@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.jlefebure</groupId>
     <artifactId>minio_lris</artifactId>
-    <version>1.2</version>
+    <version>1.3</version>
     <name>miniolonglt</name>
     <description>Spring Boot Minio</description>
 

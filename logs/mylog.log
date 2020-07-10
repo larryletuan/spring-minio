@@ -1,23 +1,24 @@
-2020-06-19 14:03:24.470  INFO 10152 --- [restartedMain] c.j.minio.example.SpringBootMinio        : Starting SpringBootMinio on DESKTOP-RRGTQS7 with PID 10152 (D:\EGOV\LRIS\MINIO\spring-boot-minio-example-master\target\classes started by ADMIN in D:\EGOV\LRIS\MINIO\spring-boot-minio-example-master)
-2020-06-19 14:03:24.476  INFO 10152 --- [restartedMain] c.j.minio.example.SpringBootMinio        : No active profile set, falling back to default profiles: default
-2020-06-19 14:03:24.576  INFO 10152 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-06-19 14:03:24.577  INFO 10152 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-06-19 14:03:25.648  INFO 10152 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8443 (https)
-2020-06-19 14:03:25.654  INFO 10152 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-06-19 14:03:25.655  INFO 10152 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
-2020-06-19 14:03:25.709  INFO 10152 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-06-19 14:03:25.709  INFO 10152 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1131 ms
-2020-06-19 14:03:26.288  INFO 10152 --- [Thread-4] c.j.s.b.m.MinioNotificationConfiguration : Registering Minio handler on handleUpload with notification [s3:ObjectCreated:Post]
-2020-06-19 14:03:26.288  INFO 10152 --- [Thread-5] c.j.s.b.m.MinioNotificationConfiguration : Registering Minio handler on handleGetPdf with notification [s3:ObjectAccessed:Get]
-2020-06-19 14:03:26.303  INFO 10152 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-06-19 14:03:26.499  INFO 10152 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
-2020-06-19 14:03:26.583  INFO 10152 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-06-19 14:03:27.045  INFO 10152 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8443 (https) with context path ''
-2020-06-19 14:03:27.049  INFO 10152 --- [restartedMain] c.j.minio.example.SpringBootMinio        : Started SpringBootMinio in 2.861 seconds (JVM running for 3.775)
-2020-06-19 14:03:50.277  INFO 10152 --- [https-jsse-nio-8443-exec-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-06-19 14:03:50.277  INFO 10152 --- [https-jsse-nio-8443-exec-6] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-06-19 14:03:50.283  INFO 10152 --- [https-jsse-nio-8443-exec-6] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
-2020-06-19 14:03:50.298  INFO 10152 --- [https-jsse-nio-8443-exec-6] c.j.minio.example.MainController         : Liet ke danh sach file
-2020-06-19 14:04:00.983  INFO 10152 --- [https-jsse-nio-8443-exec-5] c.j.minio.example.MainController         : Thong ke so luong file
-2020-06-19 14:04:06.705  INFO 10152 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2020-06-19 14:04:06.709  INFO 10152 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-09 00:11:36.193  INFO 11252 --- [restartedMain] c.j.minio.example.SpringBootMinio        : Starting SpringBootMinio on DESKTOP-RRGTQS7 with PID 11252 (D:\EGOV\LRIS\MINIO\spring-boot-minio-example-master\target\classes started by ADMIN in D:\EGOV\LRIS\MINIO\spring-boot-minio-example-master)
+2020-07-09 00:11:36.285  INFO 11252 --- [restartedMain] c.j.minio.example.SpringBootMinio        : No active profile set, falling back to default profiles: default
+2020-07-09 00:11:36.377  INFO 11252 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-09 00:11:36.377  INFO 11252 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-09 00:11:38.233  INFO 11252 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8443 (https)
+2020-07-09 00:11:38.241  INFO 11252 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-09 00:11:38.242  INFO 11252 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-07-09 00:11:38.381  INFO 11252 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-09 00:11:38.381  INFO 11252 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2003 ms
+2020-07-09 00:11:39.671  INFO 11252 --- [Thread-5] c.j.s.b.m.MinioNotificationConfiguration : Registering Minio handler on handleUpload with notification [s3:ObjectCreated:Post]
+2020-07-09 00:11:39.672  INFO 11252 --- [Thread-4] c.j.s.b.m.MinioNotificationConfiguration : Registering Minio handler on handleGetPdf with notification [s3:ObjectAccessed:Get]
+2020-07-09 00:11:39.691  INFO 11252 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-09 00:11:39.974  INFO 11252 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-07-09 00:11:40.169  INFO 11252 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-09 00:11:40.871  INFO 11252 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8443 (https) with context path ''
+2020-07-09 00:11:40.875  INFO 11252 --- [restartedMain] c.j.minio.example.SpringBootMinio        : Started SpringBootMinio in 5.42 seconds (JVM running for 7.598)
+2020-07-09 00:12:31.548  INFO 11252 --- [https-jsse-nio-8443-exec-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-09 00:12:31.548  INFO 11252 --- [https-jsse-nio-8443-exec-6] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-09 00:12:31.600  INFO 11252 --- [https-jsse-nio-8443-exec-6] o.s.web.servlet.DispatcherServlet        : Completed initialization in 52 ms
+2020-07-09 00:12:31.650  INFO 11252 --- [https-jsse-nio-8443-exec-6] c.j.minio.example.MainController         : Liet ke danh sach file
+2020-07-09 00:12:31.811  WARN 11252 --- [https-jsse-nio-8443-exec-6] c.j.minio.example.MainController         : Chua co file nao trong bucket
+2020-07-09 00:13:10.216  INFO 11252 --- [https-jsse-nio-8443-exec-5] c.j.minio.example.MainController         : Thực hiện upload file:BM_PhieuYCKiemThuHieuNang_v1_LRIS.xls
+2020-07-09 00:13:25.029  INFO 11252 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-07-09 00:13:25.032  INFO 11252 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
